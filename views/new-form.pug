@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1= title
+    br
+    br
+    br
+    button(type='submit' onclick="sendDefaultForm()") Create Example Form
+    br
+    br
+    p I only have a sample form, of 4 questions, with different answer types.
+    p I couldn't get the binding to work well and show the changes, and was told I would
+    p be tested for the backend only, so I figured I would leave the frontend as is and
+    p focus on the backend (Node-Express server, MongoDB and Docker).
+    script(src='/javascripts/new-form-script.js')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
